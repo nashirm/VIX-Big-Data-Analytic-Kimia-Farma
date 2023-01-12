@@ -5,4 +5,5 @@ Virtual Internship Experience Big Data Analytics at Kimia Farma hosted by Rakami
 #Project: Analyzed and created kimia farma dashboard salicyl sales in half year.
 1. Created a data mart to set as visualization dashboard using Google Data Studio.
 2. Created Data Mart --> First of all, I queried the 3 dataset to be 1 table as table base and determine the primary key by concatenate the id_invoice and id_barang. Then, I created the aggregate table as data mart for data source in Google Data Studio.
-3. Visualization --> I created a dashboard using data source from aggregate table in Google Data Studio.
+3. Visualization --> I created a dashboard using data source from aggregate table in Google Data Studio:
+                     https://datastudio.google.com/reporting/afd6a6e4-c873-4430-af55-05574fc3a597
