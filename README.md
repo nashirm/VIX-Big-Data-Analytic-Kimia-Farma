@@ -1,4 +1,4 @@
-# VIX Big Data Analytic Kimia-Farma
+# VIX Big Data Analytic Kimia Farma
 
 Virtual Internship Experience Big Data Analytics at Kimia Farma hosted by Rakamin Academy. In this project, as a Big Data Analyst Intern from Kimia Farma, I learned about big data, querying with SQL, data warehouse, data lake, data mart, and data visualization. At the end of the project, I created a sales dashboard using Google Data Studio.
 
