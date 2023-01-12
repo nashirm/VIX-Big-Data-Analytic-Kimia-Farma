@@ -1,0 +1,24 @@
+create table table_base as 
+(select concat(id_invoice, '_', id_barang) as id_penjualan,
+pjl.id_invoice,
+pjl.tanggal,
+pjl.id_barang,
+brg.nama_barang,
+pjl.harga,
+pjl.unit,
+pjl.jumlah_barang,
+(pjl.jumlah_barang * pjl.harga) as total_harga_per_barang,
+pjl.mata_uang,
+brg.kode_barang,
+pjl.id_customer,
+plg.nama as nama_customer,
+plg.cabang_sales,
+pjl.id_distributor,
+plg.group as group_category
+from penjualan as pjl
+left join barang as brg
+on pjl.id_barang = brg.kode_barang
+left join pelanggan as plg
+on pjl.id_customer = plg.id_customer);
+
+select * from table_base
