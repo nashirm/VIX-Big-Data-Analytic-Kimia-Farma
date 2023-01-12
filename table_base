@@ -21,4 +21,5 @@ on pjl.id_barang = brg.kode_barang
 left join pelanggan as plg
 on pjl.id_customer = plg.id_customer);
 
+
 select * from table_base
