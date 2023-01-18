@@ -1,6 +1,6 @@
 # VIX Big Data Analytic Kimia Farma
 
-Virtual Internship Experience Big Data Analytics at Kimia Farma hosted by Rakamin Academy. In this project, as a Big Data Analyst Intern from Kimia Farma, I learned & finished various tasks about big data, querying with SQL, data warehouse, data lake, data mart, and data visualization. At the end of the project, I created a sales dashboard using Google Data Studio.
+Virtual Internship Experience Big Data Analytics at Kimia Farma hosted by Rakamin Academy. As a Big Data Analyst Intern from Kimia Farma, I learned & finished various tasks about big data, querying with SQL, data warehouse, data lake, data mart, and data visualization. At the end of the project, I created a sales dashboard using Google Data Studio.
 
 #Project: Analyzed and created kimia farma dashboard salicyl sales in half year.
 1. Created a data mart to set as visualization dashboard using Google Data Studio.
