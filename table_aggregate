@@ -1,4 +1,6 @@
-create table datamart as 
+-- create table aggregate as datamart
+
+create table table_aggregate as 
 (select id_invoice,
 tanggal,
 id_customer,
@@ -12,4 +14,4 @@ from table_base
 group by 1, 2, 3, 4, 5, 6,7
 order by 1);
 
-select * from datamart
+select * from table_aggregate;
