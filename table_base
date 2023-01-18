@@ -1,3 +1,5 @@
+-- create table base as datawarehouse
+
 create table table_base as 
 (select concat(id_invoice, '_', id_barang) as id_penjualan,
 pjl.id_invoice,
@@ -14,12 +16,14 @@ pjl.id_customer,
 plg.nama as nama_customer,
 plg.cabang_sales,
 pjl.id_distributor,
-plg.group as group_category
+plg.grup as group_category
 from penjualan as pjl
 left join barang as brg
 on pjl.id_barang = brg.kode_barang
 left join pelanggan as plg
 on pjl.id_customer = plg.id_customer);
 
+-- Determine Primary Key
+ALTER TABLE table_base ADD PRIMARY KEY(id_penjualan);
 
-select * from table_base
+select * from table_base;
